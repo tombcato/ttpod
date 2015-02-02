@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/main_common_theme_color"
+     >
+	<ImageView 
+	    android:id="@+id/iv_common_title_left"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:src="@drawable/img_actionitem_back"/>
+	<TextView 
+	    android:id="@+id/tv_common_title_content"
+	    android:layout_toRightOf="@+id/iv_common_title_left"
+	    android:layout_centerVertical="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="ttpod"
+	    android:textColor="@android:color/white"
+	    android:textSize="20sp"/>
+	
+	<ImageView 
+	    android:id="@+id/iv_common_title_right1"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/common_title_more"/>
+	
+	<ImageView 
+	    android:id="@+id/iv_common_title_right2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toLeftOf="@id/iv_common_title_right1"
+	    android:layout_centerVertical="true"
+	    android:src="@drawable/img_search"/>
+	
+	<TextView 
+	    android:id="@+id/tv_common_title_right1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="ttpod"
+	    android:textColor="@android:color/white"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:textSize="25sp"
+	    android:visibility="gone"
+	    />
+</RelativeLayout>

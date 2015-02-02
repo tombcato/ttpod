@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeBackLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_title" />
+    <!-- <ViewStub android:id="@id/vs_match_pic_lrc" android:layout="@layout/local_match_pic_lrc" android:layout_width="fill_parent" android:layout_height="wrap_content" /> -->
+    <!-- <com.sds.android.ttpod.widget.SlidingTabHost android:textSize="16.0sp" android:id="@id/slidingtabhost_localmusic" android:layout_below="@id/layout_outer_matcher" app:indicatorColor="#ffb1e3ff" app:indicatorHeight="@dimen/tab_indicator_height" app:tabPaddingLeftRight="0.0dip" app:tabHeight="@dimen/tab_label_height" style="@style/SlidingTabHost" /> -->
+
+    <com.example.myttpod3.common.PagerSlidingTabStrip
+        android:id="@+id/local_slidingtabshost"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/common_title"
+        android:background="@color/main_common_theme_color" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/local_music_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/local_slidingtabshost"
+        android:layout_marginBottom="50dp" />
+
+</RelativeLayout>

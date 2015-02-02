@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="main_common_theme_color">#a0000000</color>
+    <color name="media_controller_seekbar_progress">#ff5fc5ff</color>
+</resources>
