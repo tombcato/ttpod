@@ -130,7 +130,7 @@ public class DragPlayLayout extends ViewGroup {
 		}
 
 		@Override
-		public void onViewReleased(View releasedChild, float xvel, float yvel) {
+		public void onViewReleased(View releasedChild,  float xvel, float yvel) {
 			int top = getPaddingTop();
 //			if(yvel >= 0 && mDragOffset > 0.5f){
 //				top += mDragRange;
